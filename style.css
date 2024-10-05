@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url('assets/Leonardo_Anime_XL_The_image_of_the_front_of_a_cute_little_mark_2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  form, #product-list-section {
+    background: #ffffff; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #d3d3d3;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  form label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  input[type="text"], input[type="number"] {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc; 
+    border-radius: 5px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
